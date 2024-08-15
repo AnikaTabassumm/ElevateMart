@@ -40,7 +40,7 @@ const AllUsers = () => {
   };
 
   const viewOrderHistory = (userId) => {
-    router.push(`/admin/Orders?user=${userId}`);
+    router.push(`/admin/orders?user=${userId}`);
   };
 
   const handleDeleteUser = async (userId) => {
